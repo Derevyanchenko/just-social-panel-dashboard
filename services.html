@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Services</title>
+    <!-- <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon"> -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <div class="mobileMenu-overlay">
+    <div class="mobileMenu">
+        <button class="mobileMenu__close">
+            <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M25.925 8.08919C25.3725 7.53669 24.48 7.53669 23.9275 8.08919L17 15.0025L10.0725 8.07502C9.52002 7.52252 8.62752 7.52252 8.07502 8.07502C7.52252 8.62752 7.52252 9.52002 8.07502 10.0725L15.0025 17L8.07502 23.9275C7.52252 24.48 7.52252 25.3725 8.07502 25.925C8.62752 26.4775 9.52002 26.4775 10.0725 25.925L17 18.9975L23.9275 25.925C24.48 26.4775 25.3725 26.4775 25.925 25.925C26.4775 25.3725 26.4775 24.48 25.925 23.9275L18.9975 17L25.925 10.0725C26.4634 9.53419 26.4634 8.62752 25.925 8.08919Z" fill="#2F2E41"/>
+                </svg>                               
+        </button>
+        <div class="mobileMenu__container">
+            <ul class="header__menu"></ul>
+            <div class="header__menu-bottom"></div>
+        </div>
+    </div>
+</div>
+
+<header class="header-dashboard">
+    <div class="container">
+        <div class="header__wrapper">
+
+            <a href="/" class="logo">
+                <img src="./img/dashboard-logo.svg" alt="">
+            </a>
+
+            <div class="theme-mode --mob">
+                <img src="./img/theme-mode-light.svg" alt="">
+                <div class="switcher">
+                    <label class="checkbox">
+                        <input type="checkbox" />
+                        <div class="checkbox__text"></div>
+                    </label>
+                </div>
+                <img src="./img/theme-mode-dark.svg" alt="">
+            </div>
+            <!-- theme-mode -->
+
+            <nav class="header__list">
+                <ul class="header__menu">
+                    <li>
+                        <a href="new-order.html" class="active">New order</a>
+                    </li>
+                    <li>
+                        <a href="mass-order.html">Mass order</a>
+                    </li>
+                    <li>
+                        <a href="orders-history.html">Orders</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="tickets.html">Tickets</a>
+                    </li>
+                    <li>
+                        <a href="add-funds.html">Add funds</a>
+                    </li>
+                    <li>
+                        <a href="api.html">API</a>
+                    </li>
+                    <li>
+                        <a href="affiliates.html">Affiliates</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- header__list -->
+
+            <div class="header__right">
+
+                <div class="theme-mode">
+                    <img src="./img/theme-mode-light.svg" alt="">
+                    <div class="switcher">
+                        <label class="checkbox">
+                            <input type="checkbox" />
+                            <div class="checkbox__text"></div>
+                        </label>
+                    </div>
+                    <img src="./img/theme-mode-dark.svg" alt="">
+                </div>
+                <!-- theme-mode -->
+
+                <div class="header__controls">
+                    <a href="./account.html" class="header__controls-link account-link">
+                        Account
+                        <img src="./img/account.svg" alt="">
+                    </a>
+                    <a href="#" class="header__controls-link logOut-link">
+                        Log out
+                        <img src="./img/logOut.svg" alt="">
+                    </a>
+                </div>
+
+               <div class="burger open-menu-js">
+                    <div class="open-menu">
+                        <img src="./img/burger.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- header__right -->
+        </div>
+    </div>
+</header>
+<!-- header -->
+
+
+
+    <section class="wrapper">
+        <div class="container">
+            <div class="content-row">
+                
+                <div class="sidebar-wrapper">
+                    <div class="sidebar">
+                        <div class="sidebar__info">
+                            <div class="sidebar__box">
+                                <div class="sidebar__box-wrapper">
+                                    <div class="sidebar__box-icon">
+                                        <img src="./img/sidebar-icon-total.svg" alt="">
+                                    </div>
+                                    <div class="sidebar__box-content">
+                                        <p class="sidebar__box-title">Total orders</p>
+                                        <p class="sidebar__box-num">23654</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- sidebar__box -->
+                            <div class="sidebar__box">
+                                <div class="sidebar__box-wrapper">
+                                    <div class="sidebar__box-icon">
+                                        <img src="./img/sidebar-icon-balance.svg" alt="">
+                                    </div>
+                                    <div class="sidebar__box-content">
+                                        <p class="sidebar__box-title">Current balance</p>
+                                        <p class="sidebar__box-num">$23654.254</p>
+                                    </div>
+                                </div>
+                                <a href="add-funds.html" class="btn btn-yellow">Add funds</a>
+                            </div>
+                            <!-- sidebar__box -->
+                        </div>
+
+                        <div class="sidebar__menu">
+                            <a href="index.html" class="sidebar__menu-item sidebar__item">
+                                <p>Dashboard</p>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.38 21.0098C7.87 21.4998 8.66 21.4998 9.15 21.0098L17.46 12.6998C17.85 12.3098 17.85 11.6798 17.46 11.2898L9.15 2.9798C8.66 2.4898 7.87 2.4898 7.38 2.9798C6.89 3.4698 6.89 4.2598 7.38 4.7498L14.62 11.9998L7.37 19.2498C6.89 19.7298 6.89 20.5298 7.38 21.0098Z" fill="#30A6CA"/>
+                                </svg>                                    
+                            </a>
+                            <!-- sidebar__item -->
+                            <a href="update.html" class="sidebar__menu-item sidebar__item">
+                                <p>Updates</p>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.38 21.0098C7.87 21.4998 8.66 21.4998 9.15 21.0098L17.46 12.6998C17.85 12.3098 17.85 11.6798 17.46 11.2898L9.15 2.9798C8.66 2.4898 7.87 2.4898 7.38 2.9798C6.89 3.4698 6.89 4.2598 7.38 4.7498L14.62 11.9998L7.37 19.2498C6.89 19.7298 6.89 20.5298 7.38 21.0098Z" fill="#30A6CA"/>
+                                </svg>                                    
+                            </a>
+                            <!-- sidebar__item -->
+                            <a href="buy-panel.html" class="sidebar__menu-item sidebar__item">
+                                <p>Buy panel</p>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.38 21.0098C7.87 21.4998 8.66 21.4998 9.15 21.0098L17.46 12.6998C17.85 12.3098 17.85 11.6798 17.46 11.2898L9.15 2.9798C8.66 2.4898 7.87 2.4898 7.38 2.9798C6.89 3.4698 6.89 4.2598 7.38 4.7498L14.62 11.9998L7.37 19.2498C6.89 19.7298 6.89 20.5298 7.38 21.0098Z" fill="#30A6CA"/>
+                                </svg>                                    
+                            </a>
+                            <!-- sidebar__item -->
+                        </div>
+
+                    </div>
+                    <!-- sidebar -->
+                </div>
+                <!-- col-lg-2 -->
+
+                <div class="content-wrapper">
+
+                   <div class="pageTitle">
+                       <h1 class="pageTitle__title">Services</h1>
+                       <p class="pageTitle__balance">
+                        Welcome, Your balance is <span>$23.208676</span>
+                       </p>
+                   </div>
+
+                   <div class="mainContent">
+                    
+                        <div class="services__content">
+                            <form action="#" method="POST" class="services-filters">
+                                <div class="form-control services-search">
+                                    <input type="text" name="search">
+                                    <div class="form-control__icon icon--left"></div>
+                                </div>
+                                <!-- search -->
+                        
+                                <div class="form-control services-filter scroll">
+                                    <!-- <input type="text" name="search"> -->
+                                    <!-- <div class="form-control__icon icon--left"></div> -->
+                                    <select name="month" id="age_id">
+                                        <option label="All" value="All">All</option>
+                                        <option label="Website Ads Click Views" value="Website Ads Click Views">Website Ads Click Views</option>
+                                        <option label="Youtube Ads Click Views" value="Youtube Ads Click Views">Youtube Ads Click Views</option>
+                                        <option label="Youtube AdWords Views Sale" value="Youtube AdWords Views Sale">Youtube AdWords Views Sale</option>
+                                        <option label="Telegram Special" value="Telegram Special">Telegram Special</option>
+                                        <option label="Telegram INDIAN Special" value="Telegram INDIAN Special">Telegram INDIAN Special</option>
+                                        <option label="JSP SPECIAL" value="JSP SPECIAL">JSP SPECIAL</option>
+                                        <option label="CHEAP Instagram Services" value="CHEAP Instagram Services">CHEAP Instagram Services</option>
+                                        <option label="Instagram Reel" value="Instagram Reel">Instagram Reel</option>
+                                    </select>
+                                    <div class="form-control__icon icon--left"></div>
+                                </div>
+                            </form>
+                            <!-- services-filters -->
+        
+                            <div class="services-table">
+                                <div class="table-head">
+                                    <div class="table-row">
+                                        <div class="table-col ">ID</div>
+                                        <div class="table-col ">Service</div>
+                                        <div class="table-col ">Rate per 1000</div>
+                                        <div class="table-col ">Min order</div>
+                                        <div class="table-col ">Max order</div>
+                                        <div class="table-col ">Description</div>
+                                    </div>
+                                </div>
+                                <!-- table-head -->
+                                <div class="table-content">
+        
+                                    <div class="table-category-name --blue">
+                                        Website Ads Click Views
+                                    </div>
+                                    <!-- table-category-name -->
+        
+                                    <div class="table-row">
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">ID</p>
+                                            <p class="table-col__content">235</p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Service</p>
+                                            <p class="table-col__content">
+                                                Website Ads Click Views [ Boost Your Revenue Upto 60-80% ] Real Organic Views
+                                            </p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Rate per 1000</p>
+                                            <p class="table-col__content">18.00</p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Min order</p>
+                                            <p class="table-col__content">500</p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Max order</p>
+                                            <p class="table-col__content">1000</p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Description</p>
+                                            <button class="btn-dark btn-service-view table-col__content">View details</button>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-popup-content">
+                                            <p>Start Time ~ Instant</p>
+                                            <p>Speed ~ 500-1000 Per Day</p>
+                                            <p>Quality ~ 60% Europe 40% Worldwide Wide Visitors</p>
+                                            <br>
+                                            <p>All Visitors Click on Your Any Ad. All Traffic are real and organic</p>
+                                            <br>
+                                            <p>Earning Screenshots :</p>
+                                            <br>
+                                            <p>https://prnt.sc/10l6hwr</p>
+                                            <p>https://prnt.sc/10l6lhq</p>
+                                            <br>
+                                            <p>Note : Please Share Your Revenue Screenshots in tickets Section</p>
+                                        </div>
+                                        <!-- table popup content -->
+                                    </div>
+                                    <!-- table-row -->
+        
+                                    <div class="table-category-name --blue">
+                                        Youtube Ads Click Views
+                                    </div>
+                                    <!-- table-category-name -->
+        
+                                    <div class="table-row">
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">ID</p>
+                                            <p class="table-col__content">613</p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Service</p>
+                                            <p class="table-col__content">
+                                                Youtube Ads Click Views [ Best Earning Source ] [ Real Visitors ] ~ SPECIAL
+                                            </p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Rate per 1000</p>
+                                            <p class="table-col__content">18.00</p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Min order</p>
+                                            <p class="table-col__content">500</p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Max order</p>
+                                            <p class="table-col__content">1000</p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Description</p>
+                                            <button class="btn-dark btn-service-view table-col__content">View details</button>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-popup-content">
+                                            <p>Start Time ~ Instant</p>
+                                            <p>Speed ~ 500-1000 Per Day</p>
+                                            <p>Quality ~ 60% Europe 40% Worldwide Wide Visitors</p>
+                                            <br>
+                                            <p>All Visitors Click on Your Any Ad. All Traffic are real and organic</p>
+                                            <br>
+                                            <p>Earning Screenshots :</p>
+                                            <br>
+                                            <p>https://prnt.sc/10l6hwr</p>
+                                            <p>https://prnt.sc/10l6lhq</p>
+                                            <br>
+                                            <p>Note : Please Share Your Revenue Screenshots in tickets Section</p>
+                                        </div>
+                                        <!-- table popup content -->
+                                    </div>
+                                    <!-- table-row -->
+        
+                                    <div class="table-category-name --pink">
+                                        Youtube AdWords Views Sale
+                                    </div>
+                                    <!-- table-category-name -->
+        
+                                    <div class="table-row">
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">ID</p>
+                                            <p class="table-col__content">593</p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Service</p>
+                                            <p class="table-col__content">
+                                                Youtube AdWords Views [ 1 Million Package ] [ 100% Real AdWords Views ] [ 24 Hour Complete Time ] ~ JSP SPECIAL
+                                            </p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Rate per 1000</p>
+                                            <p class="table-col__content">650</p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Min order</p>
+                                            <p class="table-col__content">1</p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Max order</p>
+                                            <p class="table-col__content">1</p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Description</p>
+                                            <button class="btn-dark btn-service-view table-col__content">View details</button>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-popup-content">
+                                            <p>Start Time ~ Instant</p>
+                                            <p>Speed ~ 500-1000 Per Day</p>
+                                            <p>Quality ~ 60% Europe 40% Worldwide Wide Visitors</p>
+                                            <br>
+                                            <p>All Visitors Click on Your Any Ad. All Traffic are real and organic</p>
+                                            <br>
+                                            <p>Earning Screenshots :</p>
+                                            <br>
+                                            <p>https://prnt.sc/10l6hwr</p>
+                                            <p>https://prnt.sc/10l6lhq</p>
+                                            <br>
+                                            <p>Note : Please Share Your Revenue Screenshots in tickets Section</p>
+                                        </div>
+                                        <!-- table popup content -->
+                                    </div>
+                                    <!-- table-row -->
+        
+                                    <div class="table-row">
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">ID</p>
+                                            <p class="table-col__content">631</p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Service</p>
+                                            <p class="table-col__content">
+                                                Youtube Adwords Views [ High Speed ] [ 1M Finish Under 6-10 Hours ] [ 750$ Per Million ] Jsp Special
+                                            </p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Rate per 1000</p>
+                                            <p class="table-col__content">0.75</p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Min order</p>
+                                            <p class="table-col__content">1000000</p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Max order</p>
+                                            <p class="table-col__content">2147483647</p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Description</p>
+                                            <button class="btn-dark btn-service-view table-col__content">View details</button>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-popup-content">
+                                            <p>Start Time ~ Instant</p>
+                                            <p>Speed ~ 500-1000 Per Day</p>
+                                            <p>Quality ~ 60% Europe 40% Worldwide Wide Visitors</p>
+                                            <br>
+                                            <p>All Visitors Click on Your Any Ad. All Traffic are real and organic</p>
+                                            <br>
+                                            <p>Earning Screenshots :</p>
+                                            <br>
+                                            <p>https://prnt.sc/10l6hwr</p>
+                                            <p>https://prnt.sc/10l6lhq</p>
+                                            <br>
+                                            <p>Note : Please Share Your Revenue Screenshots in tickets Section</p>
+                                        </div>
+                                        <!-- table popup content -->
+                                    </div>
+                                    <!-- table-row -->
+        
+                                    <div class="table-category-name --blue">
+                                        Telegram Special
+                                    </div>
+                                    <!-- table-category-name -->
+        
+                                    <div class="table-row">
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">ID</p>
+                                            <p class="table-col__content">629</p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Service</p>
+                                            <p class="table-col__content">
+                                                Telegram Indian Members [ 100% Indian Quality ] [ Max - 2K ] ~ Exclusive
+                                            </p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Rate per 1000</p>
+                                            <p class="table-col__content">1.00</p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Min order</p>
+                                            <p class="table-col__content">1000</p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Max order</p>
+                                            <p class="table-col__content">2000</p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Description</p>
+                                            <button class="btn-dark btn-service-view table-col__content">View details</button>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-popup-content">
+                                            <p>Start Time ~ Instant</p>
+                                            <p>Speed ~ 500-1000 Per Day</p>
+                                            <p>Quality ~ 60% Europe 40% Worldwide Wide Visitors</p>
+                                            <br>
+                                            <p>All Visitors Click on Your Any Ad. All Traffic are real and organic</p>
+                                            <br>
+                                            <p>Earning Screenshots :</p>
+                                            <br>
+                                            <p>https://prnt.sc/10l6hwr</p>
+                                            <p>https://prnt.sc/10l6lhq</p>
+                                            <br>
+                                            <p>Note : Please Share Your Revenue Screenshots in tickets Section</p>
+                                        </div>
+                                        <!-- table popup content -->
+                                    </div>
+                                    <!-- table-row -->
+        
+                                    <div class="table-row">
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">ID</p>
+                                            <p class="table-col__content">607</p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Service</p>
+                                            <p class="table-col__content">
+                                                Telegram Members [ Ultra High Speed ] [ Max - 200K ] [ Least / No Drop ] ~ Legendary Service
+                                            </p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Rate per 1000</p>
+                                            <p class="table-col__content">0.90</p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Min order</p>
+                                            <p class="table-col__content">1000</p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Max order</p>
+                                            <p class="table-col__content">90000</p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Description</p>
+                                            <button class="btn-dark btn-service-view table-col__content">View details</button>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-popup-content">
+                                            <p>Start Time ~ Instant</p>
+                                            <p>Speed ~ 500-1000 Per Day</p>
+                                            <p>Quality ~ 60% Europe 40% Worldwide Wide Visitors</p>
+                                            <br>
+                                            <p>All Visitors Click on Your Any Ad. All Traffic are real and organic</p>
+                                            <br>
+                                            <p>Earning Screenshots :</p>
+                                            <br>
+                                            <p>https://prnt.sc/10l6hwr</p>
+                                            <p>https://prnt.sc/10l6lhq</p>
+                                            <br>
+                                            <p>Note : Please Share Your Revenue Screenshots in tickets Section</p>
+                                        </div>
+                                        <!-- table popup content -->
+                                    </div>
+                                    <!-- table-row -->
+        
+                                    <div class="table-row">
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">ID</p>
+                                            <p class="table-col__content">606</p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Service</p>
+                                            <p class="table-col__content">
+                                                Telegram Members [ Less Drop ] [ Max - 4K ] [ Super Speed ] ~ JSP SPECIAL
+                                            </p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Rate per 1000</p>
+                                            <p class="table-col__content">0.90</p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Min order</p>
+                                            <p class="table-col__content">1000</p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Max order</p>
+                                            <p class="table-col__content">4000</p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Description</p>
+                                            <button class="btn-dark btn-service-view table-col__content">View details</button>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-popup-content">
+                                            <p>Start Time ~ Instant</p>
+                                            <p>Speed ~ 500-1000 Per Day</p>
+                                            <p>Quality ~ 60% Europe 40% Worldwide Wide Visitors</p>
+                                            <br>
+                                            <p>All Visitors Click on Your Any Ad. All Traffic are real and organic</p>
+                                            <br>
+                                            <p>Earning Screenshots :</p>
+                                            <br>
+                                            <p>https://prnt.sc/10l6hwr</p>
+                                            <p>https://prnt.sc/10l6lhq</p>
+                                            <br>
+                                            <p>Note : Please Share Your Revenue Screenshots in tickets Section</p>
+                                        </div>
+                                        <!-- table popup content -->
+                                    </div>
+                                    <!-- table-row -->
+        
+                                    <div class="table-row">
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">ID</p>
+                                            <p class="table-col__content">636</p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Service</p>
+                                            <p class="table-col__content">
+                                                Telegram Members [ Less Drop ] [ Max - 4K ] [ Super Speed ] ~ JSP SPECIAL
+                                            </p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Rate per 1000</p>
+                                            <p class="table-col__content">1.25</p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Min order</p>
+                                            <p class="table-col__content">50</p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Max order</p>
+                                            <p class="table-col__content">22000</p>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-col ">
+                                            <p class="table-col__titleForMoblie">Description</p>
+                                            <button class="btn-dark btn-service-view table-col__content">View details</button>
+                                        </div>
+                                        <!-- table-col -->
+                                        <div class="table-popup-content">
+                                            <p>Start Time ~ Instant</p>
+                                            <p>Speed ~ 500-1000 Per Day</p>
+                                            <p>Quality ~ 60% Europe 40% Worldwide Wide Visitors</p>
+                                            <br>
+                                            <p>All Visitors Click on Your Any Ad. All Traffic are real and organic</p>
+                                            <br>
+                                            <p>Earning Screenshots :</p>
+                                            <br>
+                                            <p>https://prnt.sc/10l6hwr</p>
+                                            <p>https://prnt.sc/10l6lhq</p>
+                                            <br>
+                                            <p>Note : Please Share Your Revenue Screenshots in tickets Section</p>
+                                        </div>
+                                        <!-- table popup content -->
+                                    </div>
+                                    <!-- table-row -->
+        
+                                </div>
+                            </div>
+                            <!-- services-table -->
+        
+                        </div>
+
+                   </div>
+                   <!-- mainContent -->
+
+                </div>
+                <!-- col-lg-2 -->
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+    <div class="container">
+        <div class="footer__wrapper">
+            <div class="footer__left">
+                <div class="logo footer-logo">
+                    <img src="img/logo.svg" alt="">
+                </div>
+                <ul class="header__menu footer__menu">
+                    <li>
+                        <a href="services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="terms.html">Terms</a>
+                    </li>
+                    <li>
+                        <a href="api.html">API</a>
+                    </li>
+                    <li>
+                        <a href="faq.html">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__socials">
+                <div class="footer__social">
+                    <img src="./img/footer-icon-1.svg" alt="" class="footer__social-icon">
+                    <a href="skype:justsocialpanel" class="footer__social-text">justsocialpanel</a>
+                </div>
+                <div class="footer__social">
+                    <img src="./img/footer-icon-2.svg" alt="" class="footer__social-icon">
+                    <a href="mailto:support@justsocial.com" class="footer__social-text">support@justsocial.com</a>
+                </div>
+            </div>
+        </div>
+        <p class="footer__copy">
+            © Copyright 2021. All Rights Reserved by Justsocial ( Digital Web Solutions FZ LLC )
+        </p>
+    </div>
+</footer>
+
+    <div class="overlay service-overlay">
+        <div class="popup">
+            <div class="popup__wrapper">
+                <div class="popup__top">
+                    <p class="popup__top-title">
+                        Website Ads Click Views [ Boost Your Revenue Upto 60-80% ] Real Organic Views
+                    </p>
+                    <div class="popup__close">
+                        <img src="./img/popup-close.svg" alt="">
+                    </div>
+                </div>
+                <div class="popup__content-wrapper">
+                    <div class="popup__content">
+                        <p>Start Time ~ Instant</p>
+                        <p>Speed ~ 500-1000 Per Day</p>
+                        <p>Quality ~ 60% Europe 40% Worldwide Wide Visitors</p>
+                        <br>
+                        <p>All Visitors Click on Your Any Ad. All Traffic are real and organic</p>
+                        <br>
+                        <p>Earning Screenshots :</p>
+                        <br>
+                        <p>https://prnt.sc/10l6hwr</p>
+                        <p>https://prnt.sc/10l6lhq</p>
+                        <br>
+                        <p>Note : Please Share Your Revenue Screenshots in tickets Section</p>
+                    </div>
+                </div>
+                <!-- popup__content -->
+            </div>
+        </div>
+    </div>
+    <!-- overlay -->
+
+
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="./js/jquery.mCustomScrollbar.js"></script>
+    <script src="js/form-styler.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,34 @@
+// libs
+
+@import './libs/mCustomScrollbar';
+
+@import 'base';
+@import './components/grid';
+@import './components/btns';
+@import './components/checkbox';
+
+@import './blocks/header';
+@import './blocks/sidebar';
+@import './blocks/footer';
+@import './blocks/popups';
+
+// content components
+
+@import './blocks/services';
+
+@import './components/card';
+@import './components/instruction';
+@import './components/info';
+@import './components/pagination';
+
+@import './blocks/affiliates';
+@import './blocks/update';
+@import './blocks/orders-history';
+
+//  components
+
+// @import './blocks/terms';
+
+
+// thanks-page
+// @import '_thanks-page.scss'; 

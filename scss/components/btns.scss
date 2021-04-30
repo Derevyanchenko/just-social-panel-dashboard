@@ -1,0 +1,43 @@
+
+.btn {
+	display: inline-block;
+}
+
+.btn-yellow {
+	font-weight: 600;
+	font-size: 16px;
+	color: #2D1A45;
+	line-height: 20px;
+	padding: 16px 30px;
+	background: #FFD037;
+	border-radius: 47px;
+	transition: all 0.3s;
+	&:hover {
+		background: #FAC312;
+	}
+}
+
+.btn-dark {
+	font-weight: 600;
+	font-size: 16px;
+	color: #fff;
+	line-height: 20px;
+	padding: 16px 49px;
+	background: #3A4C7B;
+	border-radius: 36px;
+	transition: all 0.3s;
+	&:hover {
+		background: #27365B;
+	}
+}
+
+.btn-service-view {
+	&:hover {
+		background: #3D3B57;
+	}
+}
+
+.btn-form {
+	max-width: 185px;
+    width: 100%;
+}

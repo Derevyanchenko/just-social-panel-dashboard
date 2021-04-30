@@ -1,0 +1,138 @@
+// instruction
+
+.instruction__wrapper {
+
+    .title {
+        font-size: 14px;
+        line-height: 19px;
+        color: #222222;
+        margin-bottom: 8px;
+    }
+}
+
+.instruction {
+    background: #F7FAFC;
+    border-radius: 15px;
+    padding: 32px;
+    padding-bottom: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.instruction__logo {
+    max-width: 158px;
+    margin-bottom: 26px;
+    img {
+        max-width: 100%;
+    }
+}
+
+.instruction__accepted {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2F2E41;
+    margin-bottom: 14px;
+}
+
+.instruction__scan {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    color: #222222;
+    margin-bottom: 26px;
+}
+
+.instruction__qrCode {
+    width: 146px;
+    height: 146px;
+    margin-bottom: 14px;
+    img {
+        max-width: 100%;
+    }
+}
+
+.instruction__doNot {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #2F2E41;
+    margin-bottom: 12px;
+}
+
+.instruction__payDescription {
+    margin-bottom: 35px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #222222;
+}
+
+.instruction__bottom-wait {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #2F2E41;
+}
+
+// ##############################################
+// media
+
+@media (max-width: 767px) {
+
+    .instruction {
+        padding: 20px 16px;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .instruction__logo {
+        margin-bottom: 12px;
+    }
+
+    .instruction__accepted {
+        margin-bottom: 12px;
+    }
+
+    .instruction__scan {
+        margin-bottom: 16px;
+    }
+
+    .instruction__qrCode {
+        margin-bottom: 23px;
+    }
+    
+    .instruction__doNot {
+        max-width: 240px;
+        text-align: left;
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 17px;
+        br {
+            display: none;
+        }
+    } 
+
+    .instruction__payDescription {
+        margin-bottom: 30px;
+        text-align: left;
+        br {
+            display: none;
+        }
+    }
+
+    .instruction__bottom-wait {
+        text-align: left;
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 245px;
+    }
+
+}

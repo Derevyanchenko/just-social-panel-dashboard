@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>New order</title>
+    <!-- <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon"> -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <div class="mobileMenu-overlay">
+    <div class="mobileMenu">
+        <button class="mobileMenu__close">
+            <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M25.925 8.08919C25.3725 7.53669 24.48 7.53669 23.9275 8.08919L17 15.0025L10.0725 8.07502C9.52002 7.52252 8.62752 7.52252 8.07502 8.07502C7.52252 8.62752 7.52252 9.52002 8.07502 10.0725L15.0025 17L8.07502 23.9275C7.52252 24.48 7.52252 25.3725 8.07502 25.925C8.62752 26.4775 9.52002 26.4775 10.0725 25.925L17 18.9975L23.9275 25.925C24.48 26.4775 25.3725 26.4775 25.925 25.925C26.4775 25.3725 26.4775 24.48 25.925 23.9275L18.9975 17L25.925 10.0725C26.4634 9.53419 26.4634 8.62752 25.925 8.08919Z" fill="#2F2E41"/>
+                </svg>                               
+        </button>
+        <div class="mobileMenu__container">
+            <ul class="header__menu"></ul>
+            <div class="header__menu-bottom"></div>
+        </div>
+    </div>
+</div>
+
+<header class="header-dashboard">
+    <div class="container">
+        <div class="header__wrapper">
+
+            <a href="/" class="logo">
+                <img src="./img/dashboard-logo.svg" alt="">
+            </a>
+
+            <div class="theme-mode --mob">
+                <img src="./img/theme-mode-light.svg" alt="">
+                <div class="switcher">
+                    <label class="checkbox">
+                        <input type="checkbox" />
+                        <div class="checkbox__text"></div>
+                    </label>
+                </div>
+                <img src="./img/theme-mode-dark.svg" alt="">
+            </div>
+            <!-- theme-mode -->
+
+            <nav class="header__list">
+                <ul class="header__menu">
+                    <li>
+                        <a href="new-order.html" class="active">New order</a>
+                    </li>
+                    <li>
+                        <a href="mass-order.html">Mass order</a>
+                    </li>
+                    <li>
+                        <a href="orders-history.html">Orders</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="tickets.html">Tickets</a>
+                    </li>
+                    <li>
+                        <a href="add-funds.html">Add funds</a>
+                    </li>
+                    <li>
+                        <a href="api.html">API</a>
+                    </li>
+                    <li>
+                        <a href="affiliates.html">Affiliates</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- header__list -->
+
+            <div class="header__right">
+
+                <div class="theme-mode">
+                    <img src="./img/theme-mode-light.svg" alt="">
+                    <div class="switcher">
+                        <label class="checkbox">
+                            <input type="checkbox" />
+                            <div class="checkbox__text"></div>
+                        </label>
+                    </div>
+                    <img src="./img/theme-mode-dark.svg" alt="">
+                </div>
+                <!-- theme-mode -->
+
+                <div class="header__controls">
+                    <a href="./account.html" class="header__controls-link account-link">
+                        Account
+                        <img src="./img/account.svg" alt="">
+                    </a>
+                    <a href="#" class="header__controls-link logOut-link">
+                        Log out
+                        <img src="./img/logOut.svg" alt="">
+                    </a>
+                </div>
+
+               <div class="burger open-menu-js">
+                    <div class="open-menu">
+                        <img src="./img/burger.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- header__right -->
+        </div>
+    </div>
+</header>
+<!-- header -->
+
+
+
+    <section class="wrapper">
+        <div class="container">
+            <div class="content-row">
+                
+                <div class="sidebar-wrapper">
+                    <div class="sidebar">
+                        <div class="sidebar__info">
+                            <div class="sidebar__box">
+                                <div class="sidebar__box-wrapper">
+                                    <div class="sidebar__box-icon">
+                                        <img src="./img/sidebar-icon-total.svg" alt="">
+                                    </div>
+                                    <div class="sidebar__box-content">
+                                        <p class="sidebar__box-title">Total orders</p>
+                                        <p class="sidebar__box-num">23654</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- sidebar__box -->
+                            <div class="sidebar__box">
+                                <div class="sidebar__box-wrapper">
+                                    <div class="sidebar__box-icon">
+                                        <img src="./img/sidebar-icon-balance.svg" alt="">
+                                    </div>
+                                    <div class="sidebar__box-content">
+                                        <p class="sidebar__box-title">Current balance</p>
+                                        <p class="sidebar__box-num">$23654.254</p>
+                                    </div>
+                                </div>
+                                <a href="add-funds.html" class="btn btn-yellow">Add funds</a>
+                            </div>
+                            <!-- sidebar__box -->
+                        </div>
+
+                        <div class="sidebar__menu">
+                            <a href="index.html" class="sidebar__menu-item sidebar__item">
+                                <p>Dashboard</p>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.38 21.0098C7.87 21.4998 8.66 21.4998 9.15 21.0098L17.46 12.6998C17.85 12.3098 17.85 11.6798 17.46 11.2898L9.15 2.9798C8.66 2.4898 7.87 2.4898 7.38 2.9798C6.89 3.4698 6.89 4.2598 7.38 4.7498L14.62 11.9998L7.37 19.2498C6.89 19.7298 6.89 20.5298 7.38 21.0098Z" fill="#30A6CA"/>
+                                </svg>                                    
+                            </a>
+                            <!-- sidebar__item -->
+                            <a href="update.html" class="sidebar__menu-item sidebar__item">
+                                <p>Updates</p>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.38 21.0098C7.87 21.4998 8.66 21.4998 9.15 21.0098L17.46 12.6998C17.85 12.3098 17.85 11.6798 17.46 11.2898L9.15 2.9798C8.66 2.4898 7.87 2.4898 7.38 2.9798C6.89 3.4698 6.89 4.2598 7.38 4.7498L14.62 11.9998L7.37 19.2498C6.89 19.7298 6.89 20.5298 7.38 21.0098Z" fill="#30A6CA"/>
+                                </svg>                                    
+                            </a>
+                            <!-- sidebar__item -->
+                            <a href="buy-panel.html" class="sidebar__menu-item sidebar__item">
+                                <p>Buy panel</p>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.38 21.0098C7.87 21.4998 8.66 21.4998 9.15 21.0098L17.46 12.6998C17.85 12.3098 17.85 11.6798 17.46 11.2898L9.15 2.9798C8.66 2.4898 7.87 2.4898 7.38 2.9798C6.89 3.4698 6.89 4.2598 7.38 4.7498L14.62 11.9998L7.37 19.2498C6.89 19.7298 6.89 20.5298 7.38 21.0098Z" fill="#30A6CA"/>
+                                </svg>                                    
+                            </a>
+                            <!-- sidebar__item -->
+                        </div>
+
+                    </div>
+                    <!-- sidebar -->
+                </div>
+                <!-- col-lg-2 -->
+
+                <div class="content-wrapper">
+
+                   <div class="pageTitle">
+                       <h1 class="pageTitle__title">New order</h1>
+                       <p class="pageTitle__balance">
+                        Welcome, Your balance is <span>$23.208676</span>
+                       </p>
+                   </div>
+
+                   <div class="mainContent">
+                        <div class="row">
+
+                           <div class="col-lg-6">
+                               <div class="form-wrapper pr-25">
+                                    <form action="#" class="form">
+
+                                        <div class="form-control">
+                                            <p>Сategory</p>
+                                            <select name="category" id="category" required="required">
+                                                <option label="All" value="All">All</option>
+                                                <option label="1" value="1">1</option>
+                                                <option label="2" value="2">2</option>
+                                                <option label="3" value="3">3</option>
+                                                <option label="4" value="4">4</option>
+                                                <option label="5" value="5">5</option>
+                                            </select>
+                                        </div>
+                                         <!-- form-control -->
+
+                                         <div class="form-control">
+                                            <p>Service</p>
+                                            <select name="service" id="service" required="required">
+                                                <option label="All" value="All">All</option>
+                                                <option label="1" value="1">1</option>
+                                                <option label="2" value="2">2</option>
+                                                <option label="3" value="3">3</option>
+                                                <option label="4" value="4">4</option>
+                                                <option label="5" value="5">5</option>
+                                            </select>
+                                        </div>
+                                         <!-- form-control -->
+
+                                        <div class="form-control">
+                                            <p>Link</p>
+                                           <input type="text" required="" name="link">
+                                           <span class="error-message">something is wrong.</span>
+                                        </div>
+                                        <!-- form-control -->
+
+                                        <div class="form-control">
+                                            <p>Quantity</p>
+                                           <input type="text" required="" name="quantity">
+                                           <span class="error-message">something is wrong.</span>
+                                        </div>
+                                        <!-- form-control -->
+
+                                        <div class="form-control">
+                                            <p>Charge</p>
+                                           <input type="text" required="" name="charge">
+                                           <span class="error-message">something is wrong.</span>
+                                        </div>
+                                        <!-- form-control -->
+
+                                        <button class="btn btn-yellow form__btn">Submit</button>
+
+                                    </form>
+                               </div>
+                           </div>
+
+                            <div class="col-lg-6">
+                                <div class="new-order__info">
+                                    <div class="row">
+
+                                        <div class="col-lg-12">
+                                            <div class="card card-md">
+                                                <div class="card__icon">
+                                                    <img src="./img/new-order/new-order-img-1.svg" alt="">
+                                                </div>
+                                                <div class="card__content">
+                                                    <p class="card__title">Link</p>
+                                                    <p class="card__text">https://discord.gg/QKnBcfwx</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- /col  -->
+
+                                        <div class="col-lg-6">
+                                            <div class="card card-md">
+                                                <div class="card__icon">
+                                                    <img src="./img/new-order/new-order-img-2.svg" alt="">
+                                                </div>
+                                                <div class="card__content">
+                                                    <p class="card__title">Start Time</p>
+                                                    <p class="card__text">0-60 Minutes</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- /col  -->
+
+
+                                        <div class="col-lg-6">
+                                            <div class="card card-md">
+                                                <div class="card__icon">
+                                                    <img src="./img/new-order/new-order-img-3.svg" alt="">
+                                                </div>
+                                                <div class="card__content">
+                                                    <p class="card__title">Speed</p>
+                                                    <p class="card__text">1k/days</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- /col  -->
+
+                                        <div class="col-lg-6">
+                                            <div class="card card-md">
+                                                <div class="card__icon">
+                                                    <img src="./img/new-order/new-order-img-4.svg" alt="">
+                                                </div>
+                                                <div class="card__content">
+                                                    <p class="card__title">Guaranteed</p>
+                                                    <p class="card__text">30days</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- /col  -->
+
+                                        <div class="col-lg-6">
+                                            <div class="card card-md">
+                                                <div class="card__icon">
+                                                    <img src="./img/new-order/new-order-img-5.svg" alt="">
+                                                </div>
+                                                <div class="card__content">
+                                                    <p class="card__title">Average Time</p>
+                                                    <p class="card__text">Not enough data</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- /col  -->
+
+                                        <div class="col-lg-12">
+                                            <div class="card card-md align-items-start">
+                                                <div class="card__icon">
+                                                    <img src="./img/new-order/new-order-img-6.svg" alt="">
+                                                </div>
+                                                <div class="card__content">
+                                                    <p class="card__title">Description</p>
+                                                    <p class="card__text">Location: Mixed</p>
+                                                    <p class="card__text-more">
+                                                        Don't worry if any of these information showed N/A or NULL, not all the services have the monitor available. Also give it a second to update as you switch services, we are loading it when you switch instead of all together to make the website faster and the information as accurate as possible.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- /col  -->
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                   </div>
+                   <!-- mainContent -->
+
+                </div>
+                <!-- col-lg-2 -->
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+    <div class="container">
+        <div class="footer__wrapper">
+            <div class="footer__left">
+                <div class="logo footer-logo">
+                    <img src="img/logo.svg" alt="">
+                </div>
+                <ul class="header__menu footer__menu">
+                    <li>
+                        <a href="services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="terms.html">Terms</a>
+                    </li>
+                    <li>
+                        <a href="api.html">API</a>
+                    </li>
+                    <li>
+                        <a href="faq.html">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__socials">
+                <div class="footer__social">
+                    <img src="./img/footer-icon-1.svg" alt="" class="footer__social-icon">
+                    <a href="skype:justsocialpanel" class="footer__social-text">justsocialpanel</a>
+                </div>
+                <div class="footer__social">
+                    <img src="./img/footer-icon-2.svg" alt="" class="footer__social-icon">
+                    <a href="mailto:support@justsocial.com" class="footer__social-text">support@justsocial.com</a>
+                </div>
+            </div>
+        </div>
+        <p class="footer__copy">
+            © Copyright 2021. All Rights Reserved by Justsocial ( Digital Web Solutions FZ LLC )
+        </p>
+    </div>
+</footer>
+
+
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="./js/jquery.mCustomScrollbar.js"></script>
+    <script src="js/form-styler.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
+

@@ -1,0 +1,113 @@
+// update
+
+.background-grey {
+    background: #F7FAFC;
+    padding: 16px;
+    border-radius: 75px;
+}
+
+
+// table
+
+.update-table {
+    margin-top: 28px;
+    .table-row {
+
+    }
+
+    .table-head {
+        margin-bottom: 20px;
+        .table-row {
+            
+        }
+    
+        .table-col {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+            color: #595867;
+
+            &:nth-child(1) {
+                width: 10%;
+            }
+            &:nth-child(2) {
+                width: 41%;
+                padding-right: 12%;
+            }
+            &:nth-child(3) {
+                width: 30%;
+            }
+            &:nth-child(4) {
+                width: 19%;
+            }
+        }
+    }
+
+    .table-content {
+        .table-row {
+            margin-bottom: 30px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    
+        .table-col {
+            &:nth-child(1) {
+                width: 10%;
+            }
+            &:nth-child(2) {
+                width: 41%;
+                padding-right: 12%;
+            }
+            &:nth-child(3) {
+                width: 30%;
+            }
+            &:nth-child(4) {
+                width: 19%;
+            }
+        }
+    
+        .table-col__content  {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 22px;
+            font-family: "Open Sans", sans-serif;
+        }
+    
+        .table-col__titleForMoblie {
+            display: none;
+        }
+    }
+
+}
+
+
+.table-btn {
+    padding: 12px 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    border-radius: 158px;
+}
+
+.btn-green {
+    color: #28B351;
+    background: #E7FEF2;
+}
+
+.btn-orange {
+    color: #FFA800;
+    background: #FFF3E0;
+}
+
+.btn-red {
+    color: #FF0000;
+    background: #FEE7E7;
+}
+
+.btn-blue {
+    background: #E7F4FE;
+    color: #1400FF;
+    // border-radius: 10px;
+}
