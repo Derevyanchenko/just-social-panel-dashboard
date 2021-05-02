@@ -8,6 +8,12 @@
     border-radius: 75px;
 }
 
+.table-col__content {
+    b {
+        font-weight: bold !important;
+    }
+}
+
 // filter category
 
 .category-filter__wrapper {
@@ -178,3 +184,280 @@
 
 }
 
+
+// ###############################################################
+/* media queries */
+
+@media (max-width: 1760px) {
+
+    .category-filter__item a {
+        margin-right: 10px;
+        padding: 16px 18px;
+    }
+
+    .orders-table .table-head .table-col:nth-child(8),
+    .orders-table .table-content .table-col:nth-child(8) {
+        width: 15%;
+    }
+
+    .orders-table .table-head .table-col:nth-child(9),
+    .orders-table .table-content .table-col:nth-child(9) {
+        width: 5%;
+    }
+
+    .orders-table .table-head .table-col:nth-child(3),
+    .orders-table .table-content .table-col:nth-child(3) {
+        width: 19%;
+        padding-right: 15px;
+    }
+
+    .orders-table .table-head .table-col:nth-child(7),
+    .orders-table .table-content .table-col:nth-child(7) {
+        width: 20%;
+        padding-right: 15px;
+    }
+
+}
+
+@media (max-width: 1600px) {
+
+
+    .orders-table .table-content .table-col__titleForMoblie {
+        display: block;
+    }
+
+    .orders-table {
+
+        .table-head {
+            display: none;
+        }
+
+        .table-content .table-col__titleForMoblie {
+            display: block;
+        }
+    
+        .btn-service-view {
+            padding: 14px 42px;
+        }
+    
+        .table-head {
+            display: none;
+        }
+    
+        .table-content .table-row {
+            flex-direction: column;
+        }
+    
+        .table-content .table-col__titleForMoblie {
+            display: block;
+            max-width: 166px;
+            width: 100%;
+            flex-shrink: 0;
+    
+            font-size: 18px;
+            line-height: 22px;
+            color: #595867;
+            font-family: "Montserrat", sans-serif;
+            // font-family: "Open Sans", sans-serif;
+        }
+    
+        .table-content .table-col {
+            display: flex;
+            margin-bottom: 16px;
+            align-items: flex-start;
+        }
+    
+        .table-content .table-col__content {
+            font-size: 16px;
+            line-height: 22px;
+            font-family: "Open Sans", sans-serif;
+        }
+    
+        .table-content .table-col:nth-child(6) {
+            margin-top: 24px;
+            margin-bottom: 0;
+        }
+    
+        .table-row {
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+    
+        .services__content {
+            padding: 20px;
+            padding-bottom: 84px;
+        }
+    
+        .table-content .table-row {
+            margin-top: 25px;
+        }
+        
+        .jq-selectbox__dropdown li {
+            font-size: 18px;
+            padding: 11px 24px;
+        }
+
+        .table-content {
+            .table-col {
+                &:nth-child(1) {
+                    width: 100%;
+                }
+                &:nth-child(2) {
+                    width: 100%;
+                    padding-right: 0;
+                }
+                &:nth-child(3) {
+                    width: 100%;
+                }
+                &:nth-child(4) {
+                    width: 100%;
+                }
+                &:nth-child(5) {
+                    width: 100%;
+                }
+                &:nth-child(6) {
+                    width: 100%;
+                    margin-top: 0;
+                }
+                &:nth-child(7) {
+                    width: 100%;
+                }
+                &:nth-child(8) {
+                    width: 100%;
+                }
+                &:nth-child(9) {
+                    width: 100%;
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+    .orders-table {
+        margin-top: 32px;
+    }
+
+    .orders-table .table-content .table-row {
+        margin-top: 0;
+        margin-bottom: 32px;
+        padding-bottom: 32px;
+        border-bottom: 1px solid #595867;
+        &:last-child {
+            border-bottom: 0;
+            margin-bottom: 0;
+            padding-bottom: 0
+        }
+    }
+
+
+    .orders-filters.background-grey {
+        background: none !important;
+        padding: 0 !important;
+        border-radius: 0 !important;
+    }
+
+    .orders-filters {
+        flex-direction: column-reverse;
+
+        .category-filter__item a {
+            display: block;
+            padding: 16px 30px;
+            margin-right: 16px;
+            margin-bottom: 16px;
+        }
+    
+        .category-filter__wrapper {
+            margin-top: 24px;
+        }
+
+        .form-control {
+            max-width: 100%;
+        }
+
+        .category-filter {
+            flex-wrap: wrap;
+        }
+
+        .form-control:last-child {
+            margin-left: 0;
+        }
+
+    }
+
+    
+}
+
+@media (max-width: 1200px) {
+
+    .orders__content {
+        padding-bottom: 32px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .orders__content {
+        padding: 20px;
+    }
+
+    .orders-filters .category-filter__item a {
+        display: block;
+        padding: 16px 25px;
+        margin-right: 10px;
+        margin-bottom: 16px;
+        line-height: 1;
+    }
+
+    .orders-table {
+        .table-content .table-col__titleForMoblie {
+            font-size: 16px;
+            line-height: 20px;
+        }
+    
+        .table-content .table-col__content {
+            font-size: 15px;
+            line-height: 24px;
+        }
+    
+        .table-content .table-col__titleForMoblie {
+            max-width: 113px;
+        }
+
+        .table-content .table-col:nth-child(6) .table-col__content {
+            padding: 0;
+        }
+    }
+
+    .orders-table .table-content .table-col {
+        margin-bottom: 23px !important; 
+        &:last-child {
+            margin-bottom: 0 !important;
+        }
+    }
+    
+
+    .orders-table .table-content .table-col {
+        padding: 0 !important;
+    }
+
+
+    .orders-table .table-content .table-row {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+}
+
+@media (max-width: 355px) {
+
+    .orders-filters .category-filter__item a {
+        display: block;
+        padding: 16px 22px;
+        margin-right: 10px;
+        margin-bottom: 16px;
+        line-height: 1;
+        font-size: 14px;
+    }
+
+}
