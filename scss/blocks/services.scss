@@ -227,11 +227,11 @@
                 width: 6%;
             }
             &:nth-child(2) {
-                width: 37%;
-                padding-right: 75px;
+                width: 35%;
+                padding-right: 55px;
             }
             &:nth-child(3) {
-                width: 15%;
+                width: 17%;
             }
             &:nth-child(4) {
                 width: 12%;
@@ -255,11 +255,11 @@
                 width: 6%;
             }
             &:nth-child(2) {
-                width: 37%;
-                padding-right: 75px;
+                width: 35%;
+                padding-right: 55px;
             }
             &:nth-child(3) {
-                width: 15%;
+                width: 17%;
             }
             &:nth-child(4) {
                 width: 12%;
@@ -303,6 +303,11 @@
         padding: 12px 15px;
     }
 
+    .services-table .table-head .table-col {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
 }
 
 
@@ -324,20 +329,21 @@
             }
         
             .table-col {
-                font-weight: 600;
-                font-size: 20px;
-                line-height: 24px;
-                color: #595867;
+                // font-weight: 600;
+                // font-size: 20px;
+                // line-height: 24px;
+                // color: #595867;
                 // border: 1px solid #eee;
                 &:nth-child(1) {
                     width: 6%;
                 }
                 &:nth-child(2) {
-                    width: 32%;
-                    padding-right: 35px;
+                    width: 31%;
+                    padding-right: 30px;
                 }
                 &:nth-child(3){
-                    width: 17%;
+                    width: 18%;
+                    padding-right: 15px;
                 }
                 &:nth-child(4) {
                     width: 15%;
@@ -361,11 +367,11 @@
                     width: 6%;
                 }
                 &:nth-child(2) {
-                    width: 32%;
-                    padding-right: 35px;
+                    width: 31%;
+                    padding-right: 30px;
                 }
                 &:nth-child(3){
-                    width: 17%;
+                    width: 18%;
                 }
                 &:nth-child(4) {
                     width: 15%;
@@ -391,12 +397,11 @@
     }
 }
 
-@media (max-width: 1440px) and (min-width: 1366px) {
+@media (max-width: 1441px) and (min-width: 1366px) {
 
     .btn-service-view {
-        padding: 12px 26px;
+        padding: 12px 14px;
     }
-
 }
 
 @media (max-width: 1366px) {

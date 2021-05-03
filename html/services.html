@@ -11,7 +11,108 @@
 </head>
 <body>
 
-    @@include('sections/header.html')
+    <div class="mobileMenu-overlay">
+        <div class="mobileMenu">
+            <button class="mobileMenu__close">
+                <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M25.925 8.08919C25.3725 7.53669 24.48 7.53669 23.9275 8.08919L17 15.0025L10.0725 8.07502C9.52002 7.52252 8.62752 7.52252 8.07502 8.07502C7.52252 8.62752 7.52252 9.52002 8.07502 10.0725L15.0025 17L8.07502 23.9275C7.52252 24.48 7.52252 25.3725 8.07502 25.925C8.62752 26.4775 9.52002 26.4775 10.0725 25.925L17 18.9975L23.9275 25.925C24.48 26.4775 25.3725 26.4775 25.925 25.925C26.4775 25.3725 26.4775 24.48 25.925 23.9275L18.9975 17L25.925 10.0725C26.4634 9.53419 26.4634 8.62752 25.925 8.08919Z" fill="#2F2E41"/>
+                    </svg>                               
+            </button>
+            <div class="mobileMenu__container">
+                <ul class="header__menu"></ul>
+                <div class="header__menu-bottom"></div>
+            </div>
+        </div>
+    </div>
+    
+    <header class="header-dashboard">
+        <div class="container">
+            <div class="header__wrapper">
+    
+                <a href="/" class="logo">
+                    <img src="./img/dashboard-logo.svg" alt="">
+                </a>
+    
+                <div class="theme-mode --mob">
+                    <img src="./img/theme-mode-light.svg" alt="">
+                    <div class="switcher">
+                        <label class="checkbox">
+                            <input type="checkbox" />
+                            <div class="checkbox__text"></div>
+                        </label>
+                    </div>
+                    <img src="./img/theme-mode-dark.svg" alt="">
+                </div>
+                <!-- theme-mode -->
+    
+                <nav class="header__list">
+                    <ul class="header__menu">
+                        <li>
+                            <a href="new-order.html">New order</a>
+                        </li>
+                        <li>
+                            <a href="mass-order.html">Mass order</a>
+                        </li>
+                        <li>
+                            <a href="orders-history.html">Orders</a>
+                        </li>
+                        <li>
+                            <a href="services.html" class="active">Services</a>
+                        </li>
+                        <li>
+                            <a href="tickets.html">Tickets</a>
+                        </li>
+                        <li>
+                            <a href="add-funds.html">Add funds</a>
+                        </li>
+                        <li>
+                            <a href="api.html">API</a>
+                        </li>
+                        <li>
+                            <a href="affiliates.html">Affiliates</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- header__list -->
+    
+                <div class="header__right">
+    
+                    <div class="theme-mode">
+                        <img src="./img/theme-mode-light.svg" alt="">
+                        <div class="switcher">
+                            <label class="checkbox">
+                                <input type="checkbox" />
+                                <div class="checkbox__text"></div>
+                            </label>
+                        </div>
+                        <img src="./img/theme-mode-dark.svg" alt="">
+                    </div>
+                    <!-- theme-mode -->
+    
+                    <div class="header__controls">
+                        <a href="./account.html" class="header__controls-link account-link">
+                            Account
+                            <img src="./img/account.svg" alt="">
+                        </a>
+                        <a href="#" class="header__controls-link logOut-link">
+                            Log out
+                            <img src="./img/logOut.svg" alt="">
+                        </a>
+                    </div>
+    
+                   <div class="burger open-menu-js">
+                        <div class="open-menu">
+                            <img src="./img/burger.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- header__right -->
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+    
+    
 
     <section class="wrapper">
         <div class="container">

@@ -254,8 +254,9 @@
             width: 100%;
             flex-shrink: 0;
     
-            font-size: 18px;
-            line-height: 22px;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
             color: #595867;
             font-family: "Montserrat", sans-serif;
             // font-family: "Open Sans", sans-serif;
@@ -273,10 +274,10 @@
             font-family: "Open Sans", sans-serif;
         }
     
-        .table-content .table-col:nth-child(6) {
-            margin-top: 24px;
-            margin-bottom: 0;
-        }
+        // .table-content .table-col:nth-child(6) {
+        //     margin-top: 24px;
+        //     margin-bottom: 0;
+        // }
     
         .table-row {
             padding-left: 12px;
